@@ -1,6 +1,6 @@
-# Azure OpenAI Web App
+# Azure OpenAI and AI Search Web App
 
-A simple Flask web application that interacts with Microsoft Azure OpenAI.
+A simple Flask web application that interacts with Microsoft Azure OpenAI and Azure AI Search.
 
 ## Setup
 
@@ -18,6 +18,9 @@ A simple Flask web application that interacts with Microsoft Azure OpenAI.
 3. Set environment variables:
    - `AZURE_OPENAI_API_KEY`: Your Azure OpenAI API key
    - `AZURE_OPENAI_ENDPOINT`: Your Azure OpenAI endpoint URL
+   - `AZURE_SEARCH_ENDPOINT`: Your Azure Search service endpoint URL
+   - `AZURE_SEARCH_KEY`: Your Azure Search API key
+   - `AZURE_SEARCH_INDEX`: Your Azure Search index name
 
    You can set them in your terminal:
    ```
